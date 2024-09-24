@@ -5,6 +5,7 @@ format: html
 editor: visual
 bibliography: references.bib
 lang: es-CL
+Adaptación a Proyecto 202420 de Matias Feige
 ---
 
 ```{r configuraciones}
