@@ -22,29 +22,16 @@ library(tidyquant)
 
 ## Descripción Activo y Contexto
 
-Fecha de entrega límite: Jueves 28 de Septiembre 23:59.
+Fecha de entrega límite: Miércoles 25 de Septiembre 23:59.
 
 ### Definición
 
-El activo elegido fue Enel Chile S.A. La compañía es una extensión de Enel, empresa italiana. Se dedica a generación, distribución y transformación de energía a lo largo de todo el país.
+# intro rápida al activo elegido
 
-Enel Chile se formó a partir de una reestructuración que comenzó en el año 2015, en ese entonces la empresa se llamaba Enersis Américas. En esta reestructuración, se aprobó la fusión de las compañías Enersis Chile, Endesa Chile y Chilectra en una estrategia denominada "La Fusión". En este mismo proceso se procedió al cambio de nombre a la hoy conocida Enel Chile S.A.
+# historia breve del activo 
 
-Enel Chile es la mayor suministradora de energía del país, debido a esto en relevante exponer los datos nacionales de uso de electricidad. En el paper "Consumption-based carbon emissions, renewable energy consumption, financial development and economic growth in Chile" de @kirikkaleli2021 se expone un análisis descriptivo de los consumos nacionales de electricidad, el cual se presenta a continuación:
+# por qué el activo es relevante
 
-[![Tabla 2 en ](Data/Screenshot%202023-09-28%20at%2015.51.18.png){fig-align="center"}](https://doi.org/10.1002/bse.2945)
-
-En donde:
-
--   CCO2: Emisiones de carbonos basadas en el consumo de energía medida en millones de toneladas de CO2.
-
--   GDP: Crecimiento de la economía medido en el PIB per cápita.
-
--   ELE: Consumo eléctrico medido en Kw/h.
-
--   REN: COnsumo de energía renovables medido en Tw/h.
-
--   FD: Crecimiento financiero, medida amplia para el desarrollo financiero teniendo en cuenta su eficiencia, accesibilidad y profundidad.
 
 ```{r ETL}
 #| echo: false
